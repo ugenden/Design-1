@@ -1,0 +1,561 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+
+.banners {
+  border-bottom: 2px solid;
+}
+.banners .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 64px;
+}
+.banners .container-fluid .contents {
+  display: flex;
+  gap: 10px;
+}
+.banners .container-fluid .contents h5 {
+  border-right: 1px solid;
+  padding: 0px 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.banners .container-fluid .actions {
+  display: flex;
+  gap: 16px;
+}
+
+.header_section {
+  padding: 0px 64px;
+  border-bottom: 1px solid #676767;
+}
+.header_section .btn {
+  background-color: #000000;
+}
+.header_section .btn a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.hero_section {
+  min-height: 80vh;
+}
+.hero_section .container-fluid {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.hero_section .container-fluid .hero_heading {
+  width: 50%;
+  padding: 80px;
+  box-sizing: border-box;
+}
+.hero_section .container-fluid .hero_heading h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%;
+  max-width: 580px;
+}
+.hero_section .container-fluid .hero_heading p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  width: 580px;
+  margin: 20px 0px;
+}
+.hero_section .container-fluid .hero_heading .btn_holder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
+.hero_section .container-fluid .hero_heading .btn_holder button {
+  border: 0;
+  background: none;
+}
+.hero_section .container-fluid .hero_heading .btn_holder button a {
+  text-decoration: none;
+  padding: 12px 24px;
+  display: block;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+  line-height: 150%;
+}
+.hero_section .container-fluid .hero_heading .btn_holder button a:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.hero_section .container-fluid .hero_heading .btn_holder button:nth-child(2) {
+  border: 0;
+  background: none;
+}
+.hero_section .container-fluid .hero_heading .btn_holder button:nth-child(2) a {
+  text-decoration: none;
+  padding: 12px 24px;
+  display: block;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.5s ease;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  line-height: 150%;
+}
+.hero_section .container-fluid .hero_heading .btn_holder button:nth-child(2) a:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.hero_section .container-fluid .hero_image {
+  width: 50%;
+}
+.hero_section .container-fluid .hero_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.quote_section .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 112px 64px;
+}
+.quote_section .container-fluid .input input {
+  height: 48px;
+  width: 296px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.quote_section .container-fluid .input textarea {
+  height: 48px;
+  width: 296px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.quote_section .container-fluid .btn_holder button {
+  width: 200px;
+  height: 40px;
+  border: 0;
+  background: none;
+}
+.quote_section .container-fluid .btn_holder button a {
+  text-decoration: none;
+  padding: 12px 24px;
+  display: block;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+  line-height: 150%;
+}
+.quote_section .container-fluid .btn_holder button a:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.service_section {
+  background-color: rgb(247, 247, 247);
+}
+.service_section .container-fluid {
+  padding: 112px 64px;
+}
+.service_section .container-fluid .text {
+  text-align: center;
+}
+.service_section .container-fluid .text h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.service_section .container-fluid .card_holder {
+  display: flex;
+  gap: 90px;
+  padding: 20px 0px;
+}
+.service_section .container-fluid .card_holder .card .image img {
+  width: 100%;
+  height: 300px;
+}
+.service_section .container-fluid .card_holder .card .text {
+  padding: 20px;
+}
+.service_section .container-fluid .card_holder .card .text h5 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.about_section .container-fluid {
+  padding: 112px 64px;
+  width: 100%;
+  display: flex;
+  gap: 32px;
+}
+.about_section .container-fluid .abt_text {
+  width: 60%;
+  box-sizing: border-box;
+  margin: auto;
+}
+.about_section .container-fluid .abt_text h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  max-width: 580px;
+}
+.about_section .container-fluid .abt_text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  width: 580px;
+}
+.about_section .container-fluid .abt_text .btn_holder button {
+  border: 0;
+  background: none;
+}
+.about_section .container-fluid .abt_text .btn_holder button a {
+  text-decoration: none;
+  padding: 12px 24px;
+  display: block;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+  line-height: 150%;
+}
+.about_section .container-fluid .abt_text .btn_holder button a:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.about_section .container-fluid .abt_image {
+  width: 45%;
+}
+.about_section .container-fluid .abt_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.team_section .container-fluid {
+  padding: 112px 64px;
+}
+.team_section .container-fluid .h_team {
+  text-align: center;
+}
+.team_section .container-fluid .card_holder {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+.team_section .container-fluid .card_holder .card {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  border: none;
+}
+.team_section .container-fluid .card_holder .card .image img {
+  width: 288px;
+  height: 288px;
+}
+.team_section .container-fluid .card_holder .card .text {
+  padding: 60px 10px;
+  width: 330px;
+  height: 166px;
+}
+.team_section .container-fluid .card_holder .card .team_icon {
+  display: flex;
+  gap: 24px;
+}
+
+.contact-section {
+  background-color: #F7F7F7;
+}
+.contact-section .container-fluid {
+  display: flex;
+  padding: 112px 64px;
+  gap: 80px;
+}
+.contact-section .container-fluid .contact-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-section .container-fluid .contact-details .contact-heading {
+  margin-bottom: 32px;
+}
+.contact-section .container-fluid .contact-details .contact-heading h6 {
+  margin-bottom: 16px;
+}
+.contact-section .container-fluid .contact-details .contact-heading .h2 {
+  font-size: 42px;
+  margin-bottom: 16px;
+}
+.contact-section .container-fluid .contact-details .contact-heading .p {
+  margin-bottom: 32px;
+}
+.contact-section .container-fluid .contact-details .contact-info .g-3 {
+  display: flex;
+  flex-direction: column;
+}
+.contact-section .container-fluid .contact-details .contact-info .g-3 .line1 {
+  display: flex;
+  gap: 35px;
+}
+.contact-section .container-fluid .contact-details .contact-info .g-3 .line1 .col-md-2 {
+  width: 300px;
+}
+.contact-section .container-fluid .contact-details .contact-info .g-3 .line2 {
+  display: flex;
+  gap: 35px;
+}
+.contact-section .container-fluid .contact-details .contact-info .g-3 .line2 .col-md-2 {
+  width: 300px;
+}
+.contact-section .container-fluid .contact-details .contact-info .g-3 .line3 .col-md-4 {
+  width: 635px;
+}
+.contact-section .container-fluid .contact-details .contact-info .g-3 .line3 .col-md-4 .form-control {
+  min-height: 149px;
+}
+.contact-section .container-fluid .contact-details .contact-info .g-3 .line4 .col-12 {
+  padding: 24px 0px;
+}
+.contact-section .container-fluid .contact-details .contact-info .g-3 .line4 .col-12:last-child {
+  padding: 0;
+}
+.contact-section .container-fluid .contact-details .contact-info .g-3 .line4 .col-12:last-child button {
+  width: 99px;
+  height: 48px;
+}
+.contact-section .container-fluid .contact-details .contact-info .g-3 .line4 .col-12:last-child button:hover {
+  background-color: #F7F7F7;
+  color: #000000;
+}
+.contact-section .container-fluid .contact-img {
+  width: 100%;
+}
+.contact-section .container-fluid .contact-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.help_section {
+  background-color: #F7F7F7;
+}
+.help_section .container-fluid {
+  padding: 112px 64px;
+}
+.help_section .container-fluid .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 80px;
+  border: 1px solid;
+  padding: 48px;
+}
+.help_section .container-fluid .main .text_holder p {
+  font-size: 18px;
+  font-weight: 400 color #000000;
+}
+.help_section .container-fluid .main .text_holder p span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  border-bottom: 1px solid #676767;
+}
+.help_section .container-fluid .main .btn_holder button {
+  border: 0;
+  background: none;
+}
+.help_section .container-fluid .main .btn_holder button a {
+  text-decoration: none;
+  padding: 12px 24px;
+  display: block;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+  line-height: 150%;
+}
+.help_section .container-fluid .main .btn_holder button a:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.signin_section .container-fluid {
+  padding: 112px 64px;
+  text-align: center;
+}
+.signin_section .container-fluid .main-container {
+  margin: 0px auto;
+  width: 768px;
+  height: 258px;
+}
+.signin_section .container-fluid .main-container .text_holder {
+  text-align: center;
+}
+.signin_section .container-fluid .main-container .text_holder h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.signin_section .container-fluid .main-container .text_holder p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.signin_section .container-fluid .main-container .form_holder .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  padding: 30px 20px;
+}
+.signin_section .container-fluid .main-container .form_holder .inner input {
+  padding: 12px;
+  border: 1px solid #000000;
+  width: 394px;
+  height: 48px;
+  border-radius: 5px;
+}
+.signin_section .container-fluid .main-container .form_holder .inner button {
+  border: 0;
+  background: none;
+}
+.signin_section .container-fluid .main-container .form_holder .inner button a {
+  text-decoration: none;
+  padding: 12px 24px;
+  display: block;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+  line-height: 150%;
+}
+.signin_section .container-fluid .main-container .form_holder .inner button a:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.signin_section .container-fluid .main-container .form_holder p {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer_section .container-fluid {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 80px 64px 0px;
+}
+.footer_section .container-fluid .upper_section {
+  display: flex;
+  gap: 299px;
+  padding: 10px;
+}
+.footer_section .container-fluid .upper_section .upper_one {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 24px;
+}
+.footer_section .container-fluid .upper_section .upper_one .UMO_content .UMO_client .g-3 .col-auto .form_control {
+  width: 365px;
+  height: 48px;
+}
+.footer_section .container-fluid .upper_section .upper_one .UMO_content .UMO_client .g-3 .col-auto .mb-3 {
+  width: 119px;
+  height: 48px;
+  transition: all 0.4s ease;
+}
+.footer_section .container-fluid .upper_section .upper_one .UMO_content .UMO_client .g-3 .col-auto .mb-3:hover {
+  background-color: #fff;
+  color: black;
+  border: none;
+  font-weight: bold;
+}
+.footer_section .container-fluid .upper_section .upper_two {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  gap: 30px;
+}
+.footer_section .container-fluid .upper_section .upper_two .about {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 20px;
+}
+.footer_section .container-fluid .upper_section .upper_two .services {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 20px;
+}
+.footer_section .container-fluid .upper_section .upper_two .followus {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.footer_section .container-fluid .upper_section .upper_two .followus .followus_head {
+  margin-bottom: 20px;
+}
+.footer_section .container-fluid .upper_section .upper_two .followus .icon {
+  display: flex;
+  gap: 12px;
+}
+.footer_section .container-fluid .upper_section .upper_two .followus .icon .iconlogo {
+  width: 20px;
+  text-align: center;
+}
+.footer_section .container-fluid .lower_section .container-fluid {
+  padding: 80px 0px;
+  width: 100%;
+}
+.footer_section .container-fluid .lower_section .container-fluid .lowercontent {
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer_section .container-fluid .lower_section .container-fluid .lowercontent .lowerone {
+  width: 70%;
+  margin: 20px 0px 0px;
+  padding: 20px 0px 0px;
+}
+.footer_section .container-fluid .lower_section .container-fluid .lowercontent .lowertwo {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 0px;
+  padding: 20px 0px 0px;
+}/*# sourceMappingURL=style.css.map */
